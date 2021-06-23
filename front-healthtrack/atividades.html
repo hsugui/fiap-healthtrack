@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+    
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <title>Lista de atividades – Health Track</title>
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-navbar" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand tamanho-ht" href="index.html" style="color: #E5E5E4;">Health Track</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="collapse-navbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="projeto-ht.html" style="color: #E5E5E4;">Projeto Health Track</a></li>
+                        <li><a href="atividades.html" style="color: #E5E5E4;">Lista de atividades</a></li>
+                        <li><a href="selecionar-objetivo.html" style="color: #E5E5E4;">Seleção de objetivo</a></li>
+                        <li><a href="calculadora-imc.html" style="color: #E5E5E4;">Calculadora de IMC</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<section class="container">
+    <img class="img-responsive" src="img/gym2.jpg" alt="Foto de mulher na academia">
+        <h2>Lista de atividades</h2>
+
+        <table class="table table-striped">
+            <tr>
+                <th>TIPO</th>
+                <th>TEMPO/FREQ.</th>
+                <th>AÇÕES</th>
+              </tr>
+              <tr>
+                <td>Aeróbica</td>
+                <td>30 min/dia</td>
+                <td>
+                    <span class="glyphicon glyphicon-trash"></span> ----
+                    <span class="glyphicon glyphicon-edit"></span>
+                </td>
+              </tr>
+              <tr>
+                <td>Alongamento</td>
+                <td>15 min/dia</td>
+                <td>
+                    <span class="glyphicon glyphicon-trash"></span> ----
+                    <span class="glyphicon glyphicon-edit"></span>
+                </td>
+              </tr>
+              <tr>
+                <td>Musculação</td>
+                <td>1 h/dia</td>
+                <td>
+                    <span class="glyphicon glyphicon-trash"></span> ----
+                    <span class="glyphicon glyphicon-edit"></span>
+                </td>
+              </tr>
+              <tr>
+                <td>Esporte</td>
+                <td>3 h/sem</td>
+                <td>
+                    <span class="glyphicon glyphicon-trash"></span> ----
+                    <span class="glyphicon glyphicon-edit"></span>
+                </td>
+              </tr>
+        </table>
+        <br>
+        <button type="button" class="btn btn-primary btn-lg btn-block">ADICIONAR ATIVIDADE</button>
+    </section>
+
+    <div class="push2x"></div>
+    <footer>
+        <p>Ajude o projeto <strong>Health Track</strong> doando Bitcoins!</p>
+        <span class="glyphicon glyphicon-bitcoin"></span>: <span class="CopyMeClass" id="CopyMeID">bc1qrezjhtn9xnv0j4jfs84wvkh5a2fvaexwh5akns</span>
+        <div class="copy-button"><button onclick="CopyClassText()">Copiar endereço</button></div>
+    </footer>
+
+<!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <script src="js/copy-address.js"></script>
+    </body>
+</html>

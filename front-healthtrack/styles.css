@@ -1,0 +1,141 @@
+#sobre-panels {
+    margin-top: 20px;
+}
+
+.formulario-calculadora {
+    width: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.navbar-default {
+    border: none;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: #FEEBF7;
+}
+
+.container-fluid {
+    background-color: #201E21;
+}
+
+.panel-body {
+    background-image: linear-gradient(#FE94F4, #FE36AE);
+    color: black;
+    font-size: medium;
+}
+
+.jumbotron {
+    background:#201E21; 
+    color: #ED01D6;
+}
+
+.jumbotron p {
+    color: #FE94F4;
+}
+
+body h2 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+body h3 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.imc-apresentacao {
+    font-size: larger;
+    text-align: center;
+    background-color: rgb(143, 0, 179);
+    color: white;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.imc-informacao {
+    font-size: large;
+    text-align: center;
+    background-color: darkorange;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+@media(min-width: 768px) {
+    #sobre-panels {
+        margin-top: 0;
+    }
+
+    body footer {
+        font-size: medium;
+        width: 100%;
+    }
+
+    body header {
+        font-size: larger;
+    }
+
+    .tamanho-ht {
+        font-size: 25px;
+    }
+}
+
+@media(max-width: 767px) {
+    body {
+        background-color: #FEC2E6;
+    }
+
+    body footer {
+        position: relative;
+        clear: both;
+        bottom: 0;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+footer {
+    background-color: #333;
+    color: #FFF;
+    padding: 20px;
+    font-size: small;
+    margin-top: 10px;
+    text-align: center;    
+}
+
+.push2x {
+    height: 10%;
+}
+
+.push3x {
+    height: 15%;
+}
+
+.push6x {
+    height: 30%;
+}
+
+.copy-button {
+    color: black;
+    margin-top: 10px;
+}
+
+.footer-projeto {
+    margin-bottom:auto;
+}
+
+.body-projeto {
+    display: grid; grid-template-rows: auto 1fr auto;
+}

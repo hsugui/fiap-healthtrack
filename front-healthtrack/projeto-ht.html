@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+    
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <title>O Projeto Health Track</title>
+  </head>
+  <body class="body-projeto">
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-navbar" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand tamanho-ht" href="index.html" style="color: #E5E5E4;">Health Track</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="collapse-navbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="projeto-ht.html" style="color: #E5E5E4;">Projeto Health Track</a></li>
+                        <li><a href="atividades.html" style="color: #E5E5E4;">Lista de atividades</a></li>
+                        <li><a href="selecionar-objetivo.html" style="color: #E5E5E4;">Seleção de objetivo</a></li>
+                        <li><a href="calculadora-imc.html" style="color: #E5E5E4;">Calculadora de IMC</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="projeto-ht" class="container">
+        <div class="row">
+            <img class="img-responsive col-sm-6" src="img/gym1.jpg" alt="Foto de objetos de treino">
+            <h2>O Projeto Health Track</h2>
+            <div class="panel-group col-sm-6" id="sobre-panels">
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="cursor: pointer;">
+                        <h3 class="panel-title" data-toggle="collapse" data-target="#primeiro-paragrafo" data-parent="#sobre-panels">Origem</h3>
+                    </div>
+                    <div id="primeiro-paragrafo" class="collapse">
+                        <div class="panel-body">
+                            <p>A ideia de desenvolver o <strong>Health Track</strong> surgiu no momento em que percebemos uma grande lacuna no mercado de aplicativos: não havia nenhuma opção que fornecesse aos usuários a possibilidade de controlar suas atividades físicas de forma simples e direta, seja em ambientes <i>indoor</i>, seja em ambientes <i>outdoor</i>.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="cursor: pointer;">
+                        <h3 class="panel-title" data-toggle="collapse" data-target="#segundo-paragrafo" data-parent="#sobre-panels">Saúde em primeiro lugar</h3>
+                    </div>
+                    <div id="segundo-paragrafo" class="collapse">
+                        <div class="panel-body">
+                            <p>Antes de qualquer coisa, o <strong>Health Track</strong> foi projetado pensando na sua saúde. Disponibilizamos o aplicativo gratuitamente e não fazemos propagandas de produtos de terceiros. Focamos em transparência e nosso objetivo é fornecer a melhor experiência possível para o usuário. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="cursor: pointer;">
+                        <h3 class="panel-title" data-toggle="collapse" data-target="#terceiro-paragrafo" data-parent="#sobre-panels">Unindo saúde e tecnologia</h3>
+                    </div>
+                    <div id="terceiro-paragrafo" class="collapse">
+                        <div class="panel-body">
+                            <p>Desenvolvido por especialistas em tecnologia e contato direto e contínuo com médicos, educadores físicos e fisioterapeutas, o <strong>Health Track</strong> conseguiu unir a tecnologia e a saúde de forma nunca antes vista, proporcionando ao usuário um aplicativo 100% confiável e de facílima utilização.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer-projeto">
+        <p>Ajude o projeto <strong>Health Track</strong> doando Bitcoins!</p>
+        <span class="glyphicon glyphicon-bitcoin"></span>: <span class="CopyMeClass" id="CopyMeID">bc1qrezjhtn9xnv0j4jfs84wvkh5a2fvaexwh5akns</span>
+        <div class="copy-button"><button onclick="CopyClassText()">Copiar endereço</button></div>
+    </footer>
+
+<!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <script src="js/copy-address.js"></script>
+    </body>
+</html>
